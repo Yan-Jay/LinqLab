@@ -1,0 +1,15 @@
+R:\LinqLab\LinqLab\bin\Debug\LinqLab.exe.config
+R:\LinqLab\LinqLab\bin\Debug\LinqLab.exe
+R:\LinqLab\LinqLab\bin\Debug\LinqLab.pdb
+R:\LinqLab\LinqLab\obj\Debug\LinqLab.csprojResolveAssemblyReference.cache
+R:\LinqLab\LinqLab\obj\Debug\LinqLab.exe
+R:\LinqLab\LinqLab\obj\Debug\LinqLab.pdb
+R:\LinqLab\LinqLab\bin\Debug\ExpectedObjects.dll
+D:\SourceTree\LinqLab\LinqLab\bin\Debug\LinqLab.exe.config
+D:\SourceTree\LinqLab\LinqLab\bin\Debug\LinqLab.exe
+D:\SourceTree\LinqLab\LinqLab\bin\Debug\LinqLab.pdb
+D:\SourceTree\LinqLab\LinqLab\bin\Debug\ExpectedObjects.dll
+D:\SourceTree\LinqLab\LinqLab\obj\Debug\LinqLab.csprojResolveAssemblyReference.cache
+D:\SourceTree\LinqLab\LinqLab\obj\Debug\LinqLab.csproj.CoreCompileInputs.cache
+D:\SourceTree\LinqLab\LinqLab\obj\Debug\LinqLab.exe
+D:\SourceTree\LinqLab\LinqLab\obj\Debug\LinqLab.pdb
