@@ -16,19 +16,19 @@ namespace LinqLab
 
         public List<Sample> 請使用Id升冪排序()
         {
-            var result = new List<Sample>();
+            var result = Source.OrderBy(x => x.Id).ToList();
             return result;
         }
 
         public List<Sample> 請使用Id降冪排序()
         {
-            var result = new List<Sample>();
+            var result = Source.OrderByDescending(x => x.Id).ToList();
             return result;
         }
 
         public List<Sample> 請使用Price昇冪排序後再使用Id昇冪排序Test()
         {
-            var result = new List<Sample>();
+            var result = Source.OrderBy(x => x.Price).OrderBy(x => x.Id).ToList();
             return result;
         }
     }

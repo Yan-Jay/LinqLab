@@ -11,7 +11,8 @@ namespace LinqLab
     {
         static void Main(string[] args)
         {
-           
+            var data = new WhereLab();
+            data.搜尋Id大於8的資料();
         }
     }
 

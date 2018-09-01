@@ -17,19 +17,19 @@ namespace LinqLab
 
         public List<Sample> 跳過五筆資料()
         {
-            var result = new List<Sample>();
+            var result = Source.Skip(5).ToList();
             return result;
         }
 
         public List<Sample> 取得五筆資料()
         {
-            var result = new List<Sample>();
+            var result = Source.Take(5).ToList();
             return result;
         }
 
         public List<Sample> 跳過五筆取得兩筆()
         {
-            var result = new List<Sample>();
+            var result = Source.Skip(5).Take(2).ToList();
             return result;
         }
     }
