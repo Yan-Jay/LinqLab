@@ -21,11 +21,11 @@ namespace LinqLab
         public IEnumerable<IGrouping<TempObj, Sample>> 使用UserName和CreateTime作為群組依據()
         {
             var result = new List<IGrouping<TempObj, Sample>>();
-            //result = Source.GroupBy(x => new
-            //{
-            //    x.UserName,
-            //    x.CreateTime,
-            //}).ToList();
+            result = Source.GroupBy(x => new TempObj()
+            {
+                UserName =  x.UserName,
+                CreateTime = x.CreateTime,
+            }).ToList();
             return result;
         }
     }

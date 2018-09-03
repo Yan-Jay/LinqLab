@@ -28,7 +28,7 @@ namespace LinqLab
 
         public List<Sample> 請使用Price昇冪排序後再使用Id昇冪排序Test()
         {
-            var result = Source.OrderBy(x => x.Price).OrderBy(x => x.Id).ToList();
+            var result = Source.OrderBy(x => x.Price).ThenBy(x => x.Id).ToList();
             return result;
         }
     }
